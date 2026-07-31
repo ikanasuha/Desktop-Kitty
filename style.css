@@ -1,0 +1,55 @@
+body {
+
+    margin: 0;
+
+    overflow: hidden;
+
+    background: white;
+
+}
+
+
+#cat {
+
+    position: absolute;
+
+    width: 120px;
+
+    left: 300px;
+
+    top: 300px;
+
+    user-select: none;
+
+    -webkit-user-drag: none;
+
+    z-index: 2;
+
+}
+
+
+#speech {
+
+    position: fixed;
+
+    background: white;
+
+    color: black;
+
+    border: 2px solid black;
+
+    border-radius: 15px;
+
+    padding: 10px 15px;
+
+    font-family: Georgia, serif;
+
+    font-size: 16px;
+
+    max-width: 250px;
+
+    display: none;
+
+    z-index: 9999;
+
+}
